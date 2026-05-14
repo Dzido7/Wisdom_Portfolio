@@ -97,8 +97,8 @@ export default function App() {
       <nav id="navbar" className="fixed top-0 left-0 w-full z-50 p-6 flex justify-between items-center bg-transparent backdrop-blur-sm">
         <div className="font-display font-bold text-xl tracking-tighter uppercase">WA.</div>
         <div className="flex gap-8 text-xs font-semibold uppercase tracking-widest">
-          <a href="#work" className="hover:line-through transition-all">Work</a>
           <a href="#about" className="hover:line-through transition-all">About</a>
+          <a href="#work" className="hover:line-through transition-all">Work</a>
           <a href="#contact" className="hover:line-through transition-all">Contact</a>
         </div>
       </nav>
