@@ -17,7 +17,7 @@ import {
   Instagram
 } from 'lucide-react';
 
-import wisdomPhoto from './Wisdom.jpg';
+import { WISDOM_IMAGE_BASE64 } from './wisdomImage';
 
 export default function App() {
   const skills = [
@@ -127,7 +127,7 @@ export default function App() {
               className="aspect-square bg-gray-200 overflow-hidden relative transition-all duration-700 hover:shadow-2xl border border-black/5 rounded-full"
             >
               <img 
-                src={wisdomPhoto} 
+                src={WISDOM_IMAGE_BASE64} 
                 alt="Wisdom Awove"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
